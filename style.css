@@ -1,0 +1,84 @@
+html, body {
+    font-family: 'Open Sans';
+    background-color: #ededed;
+}
+
+article > ol, article > ol > li > ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+
+article > ol > li, article > ol > li > ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+article > ol > li:before, article > ol > li > ol > li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 0.6em;
+}
+
+article > li ol > li {
+  margin: 0;
+}
+
+article > ol > li > ol > li > ol {
+    list-style-type: lower-alpha;
+}
+
+header {
+    height: 60px;
+    background-color: #364756;
+}
+
+article {
+    padding-bottom: 60px;
+}
+
+header img {
+    width: 68px;
+    height: 46px;
+    position: relative;
+    top: 6px;
+    left: -6px;
+}
+
+a {
+    color: #57CDC6;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #6d7884;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #6d7884;
+}
+
+p, li {
+    line-height: 1.5em;
+    color: #6d7884;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6d7884;
+}
+
+.container {
+    max-width: 1400px;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
