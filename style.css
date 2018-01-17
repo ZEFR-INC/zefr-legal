@@ -82,3 +82,7 @@ h4 {
     margin: 0 auto;
     position: relative;
 }
+
+.italic {
+    font-style: italic;
+}
