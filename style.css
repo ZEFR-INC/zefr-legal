@@ -64,7 +64,7 @@ h3 {
     color: #6d7884;
 }
 
-h3 span {
+h3 > span {
     font-weight: normal;
 }
 
