@@ -110,3 +110,7 @@ em {
 .text-break {
     word-break: break-word
 }
+
+.text-nocase {
+    text-transform: none;
+}
