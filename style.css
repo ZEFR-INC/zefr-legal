@@ -95,6 +95,10 @@ em {
     font-style: italic;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .text-uppercase {
     text-transform: uppercase;
 }
